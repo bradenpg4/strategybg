@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/strategybg/static/css/main.75904f1a.css",
+    "main.js": "/strategybg/static/js/main.9aedabd0.js",
+    "index.html": "/strategybg/index.html",
+    "main.75904f1a.css.map": "/strategybg/static/css/main.75904f1a.css.map",
+    "main.9aedabd0.js.map": "/strategybg/static/js/main.9aedabd0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.75904f1a.css",
+    "static/js/main.9aedabd0.js"
+  ]
+}
