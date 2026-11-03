@@ -1,0 +1,125 @@
+.methodology-page .methodology-hero {
+    background-color:var(--footer);
+    color:var(--light-text);
+    padding:70px 0;
+}
+
+.methodology-page .methodology-hero .content {
+    align-items:center;
+    gap:85px;
+    max-width:1050px;
+}
+
+.methodology-page .methodology-hero .content > div {
+    flex:1;
+}
+
+.methodology-page .methodology-hero h2 {
+    color:var(--light-text);
+    font-size:3em;
+    line-height:1.08;
+}
+
+.methodology-page .methodology-hero p:not(.eyebrow) {
+    font-size:1.05em;
+    font-weight:bold;
+    line-height:1.45;
+    max-width:450px;
+}
+
+.methodology-page .methodology-hero img {
+    border-radius:18px;
+    width:46%;
+}
+
+.methodology-page .methodology-step {
+    padding:80px 0;
+}
+
+.methodology-page .methodology-step .content {
+    align-items:center;
+    gap:120px;
+    max-width:1050px;
+}
+
+.methodology-page .methodology-step .content > div {
+    flex:1;
+    text-align:center;
+}
+
+.methodology-page .methodology-step h2 {
+    font-size:2.6em;
+    line-height:1.08;
+}
+
+.methodology-page .methodology-step .content > div > p:not(.eyebrow) {
+    font-size:1.05em;
+    font-weight:bold;
+    line-height:1.45;
+}
+
+.methodology-page .methodology-step img {
+    border-radius:18px;
+    width:48%;
+}
+
+.methodology-page .methodology-step .gold-line {
+    margin:25px auto 0;
+}
+
+.methodology-page .deliver-step {
+    background-color:var(--red);
+}
+
+.methodology-page .deliver-step .content > div > p:not(.eyebrow) {
+    color:var(--headings);
+}
+
+.methodology-page .methodology-callout {
+    background-color:var(--footer);
+    color:var(--light-text);
+    padding:70px 0;
+    text-align:center;
+}
+
+.methodology-page .methodology-callout h2 {
+    color:var(--light-text);
+    font-size:2.4em;
+}
+
+.methodology-page .methodology-callout p {
+    font-size:1em;
+    font-weight:bold;
+    margin:auto;
+    max-width:650px;
+}
+
+@media (max-width:900px) {
+.methodology-page .methodology-hero .content,
+.methodology-page .methodology-step .content {
+    gap:35px;
+}
+
+.methodology-page .methodology-hero img,
+.methodology-page .methodology-step img {
+    width: 100%;
+}
+}
+
+.methodology-page .methodology-callout {
+    background: var(--red);
+    color: var(--light-text);
+}
+
+.methodology-page .methodology-callout h2 {
+    color: var(--light-text);
+}
+
+@media (max-width: 900px) {
+    .methodology-page .columns {
+        flex-direction: column;
+    }
+    .methodology-page .columns > img {
+        width: 100%;
+    }
+}

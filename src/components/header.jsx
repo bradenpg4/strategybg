@@ -9,7 +9,7 @@ function Header() {
 
                 <Navigation />
 
-                <a className="consultation-button" href="contacts.html">
+                <a className="consultation-button" href="#/contacts">
                     Book a Consultation
                 </a>
             </div>

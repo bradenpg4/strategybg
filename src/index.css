@@ -1,7 +1,12 @@
 :root {
     --background: #F7F3EB;
     --headings: #171717;
+    --red: #941C2D;
     --gold: #D4A334;
+    --gray: #E9E9E9;
+    --cards: #FFFFFF;
+    --footer: #202020;
+    --light-text: #FFFFFF;
 }
 
 * {
@@ -9,8 +14,17 @@
 }
 
 body {
-    background-color: var(--background);
+    background: var(--background);
     color: var(--headings);
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+button, input, textarea {
+    font: inherit;
 }

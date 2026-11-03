@@ -1,0 +1,293 @@
+.home-page .hero {
+    background-color:var(--red);
+    color:var(--light-text);
+    padding:70px 0;
+}
+
+.home-page .hero .content {
+    align-items:center;
+    gap:70px;
+}
+
+.home-page .hero-text {
+    flex:1;
+}
+
+.home-page .hero h2 {
+    color:var(--light-text);
+    font-size:4em;
+    line-height:1.08;
+}
+
+.home-page .hero img {
+    border-radius:18px;
+    width:52%;
+}
+
+.home-page .difference {
+    padding:70px 0;
+}
+
+.home-page .difference .content {
+    align-items:center;
+    gap:70px;
+}
+
+.home-page .difference .content div {
+    flex:1;
+}
+
+.home-page .difference img {
+    border-radius:18px;
+    width:50%;
+}
+
+.home-page .help-section,
+.home-page .methodology,
+.home-page .services,
+.home-page .insights {
+    padding:70px 0;
+    text-align:center;
+}
+
+.home-page .help-cards {
+    gap:20px;
+    margin-top:35px;
+}
+
+.home-page .help-cards article {
+    background-color:var(--cards);
+    border-radius:14px;
+    flex:1;
+    padding:25px 16px;
+}
+
+.home-page .help-cards h3 {
+    font-size:1.25em;
+}
+
+.home-page .help-cards p {
+    font-size:.95em;
+    font-weight:bold;
+}
+
+.home-page .methodology {
+    padding-bottom:100px;
+}
+
+.home-page .steps {
+    margin-top:55px;
+    position:relative;
+}
+
+.home-page .steps::before {
+    background-color:var(--gold);
+    content:"";
+    height:4px;
+    left:16%;
+    position:absolute;
+    right:16%;
+    top:38px;
+}
+
+.home-page .steps article {
+    flex:1;
+    position:relative;
+}
+
+.home-page .steps h3 {
+    font-size:1.35em;
+    margin-bottom:8px;
+}
+
+.home-page .steps p {
+    font-size:1em;
+    font-weight:bold;
+    margin:0 auto;
+    max-width:260px;
+}
+
+.home-page .services {
+    background-color:var(--cards);
+}
+
+.home-page .service-cards,
+.home-page .insight-cards {
+    gap:28px;
+    margin-top:40px;
+    text-align:left;
+}
+
+.home-page .service-cards article,
+.home-page .insight-cards article {
+    background-color:var(--background);
+    border-radius:14px;
+    flex:1;
+    overflow:hidden;
+}
+
+.home-page .insight-cards article {
+    background-color:var(--cards);
+}
+
+.home-page .service-cards img,
+.home-page .insight-cards img {
+    height:175px;
+    object-fit:cover;
+    width:100%;
+}
+
+.home-page .service-cards h3,
+.home-page .service-cards p,
+.home-page .service-cards a,
+.home-page .insight-cards h3,
+.home-page .insight-cards p,
+.home-page .insight-cards a {
+    display:block;
+    margin-left:24px;
+    margin-right:24px;
+}
+
+.home-page .service-cards h3,
+.home-page .insight-cards h3 {
+    font-size:1.35em;
+    margin-top:24px;
+}
+
+.home-page .service-cards a,
+.home-page .insight-cards a {
+    color:var(--gold);
+    font-weight:bold;
+    margin-bottom:25px;
+    text-decoration:none;
+}
+
+.home-page .founder {
+    background-color:var(--red);
+    color:var(--light-text);
+    padding:70px 0;
+}
+
+.home-page .founder .content {
+    align-items:center;
+    gap:70px;
+}
+
+.home-page .founder img {
+    border-radius:18px;
+    width:45%;
+}
+
+.home-page .founder .content > div {
+    flex:1;
+    max-width:600px;
+    text-align:center;
+}
+
+.home-page .founder h2 {
+    color:var(--light-text);
+    font-size:3em;
+    line-height:1.1;
+}
+
+@media (max-width:900px) {
+.home-page .hero .content,
+.home-page .difference .content,
+.home-page .founder .content {
+    gap:35px;
+}
+
+.home-page .hero img,
+.home-page .difference img,
+.home-page .founder img {
+    width: 100%;
+}
+
+.home-page .hero h2 {
+    font-size:2.6em;
+}
+
+.home-page .help-cards,
+.home-page .service-cards,
+.home-page .insight-cards {
+    flex-direction:row;
+    flex-wrap:wrap;
+}
+
+.home-page .help-cards article {
+    flex-basis:30%;
+}
+
+.home-page .service-cards article,
+.home-page .insight-cards article {
+    flex-basis:45%;
+}
+}
+
+@media (max-width:600px) {
+.home-page .hero h2 {
+    font-size:2.25em;
+}
+
+.home-page .help-cards,
+.home-page .service-cards,
+.home-page .insight-cards {
+    flex-direction:column;
+}
+
+.home-page .steps::before {
+    display:none;
+}
+
+.home-page .steps {
+    gap:30px;
+}
+}
+
+@media (max-width: 900px) {
+    .home-page .columns {
+        flex-direction: column;
+    }
+    .home-page .columns > img {
+        width: 100%;
+    }
+}
+
+.home-page .hero-image {
+    flex: 1;
+    min-width: 0;
+}
+.home-page .hero-image img {
+    border-radius: 18px;
+    height: 390px;
+    object-fit: cover;
+    width: 100%;
+}
+@media (max-width: 900px) {
+    .home-page .hero-image {
+        width: 100%;
+    }
+    .home-page .hero-image img {
+        height: 280px;
+    }
+    .home-page .help-cards,
+    .home-page .service-cards,
+    .home-page .insight-cards {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .home-page .help-cards article {
+        flex: 1 1 40%;
+    }
+    .home-page .service-cards article,
+    .home-page .insight-cards article {
+        flex: 1 1 40%;
+    }
+}
+@media (max-width: 600px) {
+    .home-page .help-cards,
+    .home-page .service-cards,
+    .home-page .insight-cards {
+        flex-direction: column;
+    }
+}

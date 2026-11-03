@@ -1,0 +1,23 @@
+.info-card {
+    min-width: 0;
+}
+
+.info-card .circle,
+.info-card .step-number {
+    align-items: center;
+    background: var(--gold);
+    border-radius: 50%;
+    color: var(--light-text);
+    display: flex;
+    font-size: 1.75em;
+    font-weight: bold;
+    height: 70px;
+    justify-content: center;
+    margin: 0 auto 20px;
+    width: 70px;
+}
+
+.info-card .step-number {
+    height: 78px;
+    width: 78px;
+}
