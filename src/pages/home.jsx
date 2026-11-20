@@ -12,7 +12,7 @@ function Home() {
                             Strategy With Purpose
                         </p>
                         <h2>
-                            From Problem to Possibility
+                            From Problem to Possibility!
                         </h2>
                         <p>
                             We help leaders uncover the real challenges holding their organizations back and build practical strategies for lasting progress.
